@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="278.382" height="500.765" viewBox="0 0 278.382 500.765">
+  <g id="abstract_footer" transform="translate(-820.809 -5136.235)">
+    <path id="Trazado_140" data-name="Trazado 140" d="M140.36,139.191V0H279.551V.655A138.536,138.536,0,0,1,141.015,139.191Z" transform="translate(819.64 5275.427)" fill="#fff"/>
+    <path id="Trazado_142" data-name="Trazado 142" d="M279.551,139.191V0H140.36V.655A138.537,138.537,0,0,0,278.9,139.191Z" transform="translate(680.449 5275.427)" fill="#a5a5a5"/>
+    <path id="Trazado_145" data-name="Trazado 145" d="M140.36,0V139.191H279.551v-.655A138.536,138.536,0,0,0,141.015,0Z" transform="translate(819.64 5497.809)" fill="#6c757d"/>
+    <path id="Trazado_141" data-name="Trazado 141" d="M279.551,0V139.191H140.36v-.655A138.537,138.537,0,0,1,278.9,0Z" transform="translate(680.449 5136.235)" fill="#343a40"/>
+    <ellipse id="Elipse_13" data-name="Elipse 13" cx="65.982" cy="66.191" rx="65.982" ry="66.191" transform="translate(820.809 5497.809)" fill="#ced4da"/>
+    <ellipse id="Elipse_14" data-name="Elipse 14" cx="65.982" cy="66.191" rx="65.982" ry="66.191" transform="translate(967.228 5136.235)" fill="#ced4da"/>
+  </g>
+</svg>

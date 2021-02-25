@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", Arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-container {
+  background: #212529;
+}
+
+.nav-container a {
+  color: #adb5bd;
+  font-size: 12pt;
+}
+
+.nav-container a:hover {
+  color: white;
+}
+
+.logo {
+  color: #ced4da;
+  font-weight: bold;
+}
+
+.logo a {
+  font-size: 14pt;
+}
+
+.logo:hover {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 0.5em;
+  text-align: center;
+}
+
+.social-header,
+.hero-design,
+.footer-design {
+  display: none;
+}
+
+.hero {
+  background: #343a40;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.meet {
+  color: #a5a5a5;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  height: 25pt;
+}
+
+.meet span {
+  margin-top: 1em;
+  margin-right: 0.5em;
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+section.actualidad {
+  position: relative;
+}
+
+section.actualidad::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #acb2b7;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6c757d;
+  letter-spacing: 0.2em;
+  font-size: 0.85em;
+}
+
+.section-title {
+  color: #212529;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: -0.4em;
+  display: block;
+}
+
+.act-skill-container ul li {
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  background: #343a40;
+}
+
+.act-skill-container ul li .icon-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.act-skill-container ul li .skill-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ced4da;
+}
+
+.act-skill-container ul li .skill-desc {
+  margin-bottom: 2em;
+  font-weight: medium;
+  color: #c6c9cc;
+}
+
+.act-skill-container ul li .icon-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.act-skill-container ul li .icon-container.one {
+  width: 90px;
+}
+
+.act-skill-container ul li .icon-container.two {
+  width: 90px;
+}
+
+.act-skill-container ul li .icon-container.three {
+  width: 90px;
+}
+
+section.fut {
+  position: relative;
+  background: #ced4da;
+}
+
+section.fut::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #acb2b7;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.futsec {
+  position: relative;
+  z-index: 3;
+}
+
+.fut-skill-container {
+  position: relative;
+  z-index: 1;
+}
+
+.fut-skill-container ul li {
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  background: #ffffff;
+}
+
+.fut-skill-container ul li .icon-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.fut-skill-container ul li .skill-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #212529;
+}
+
+.fut-skill-container ul li .skill-desc {
+  margin-bottom: 2em;
+  font-weight: medium;
+  color: #3b3b3b;
+}
+
+.fut-skill-container ul li .icon-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.fut-skill-container ul li .icon-container.one {
+  width: 90px;
+}
+
+.fut-skill-container ul li .icon-container.two {
+  width: 90px;
+}
+
+.fut-skill-container ul li .icon-container.three {
+  width: 90px;
+}
+
+.descargar-cv {
+  position: relative;
+  padding-left: 0;
+  background: white;
+}
+
+.descargar-cv .parent-btn {
+  position: relative;
+}
+
+.descargar-cv .parent-btn .child-btn {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.descargar-cv .parent-btn .child-btn button {
+  font-family: inherit;
+  border: 10px solid #707070;
+  border-radius: 40px;
+  background-color: white;
+  color: #212529;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.descargar-cv .parent-btn .child-btn button .btn:hover {
+  background-color: white;
+  border: white;
+  color: black;
+}
+
+footer {
+  background: #343a40;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0em 2em 2em;
+}
+
+footer .footer-left {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 2em;
+}
+
+footer .footer-left a {
+  color: #adb5bd;
+}
+
+footer .footer-left a:hover {
+  color: white;
+}
+
+footer .footer-left .copyright {
+  color: white;
+}
+
+footer .footer-right {
+  display: -ms-grid;
+  display: grid;
+  color: #ced4da;
+  text-align: right;
+  padding-top: 2em;
+}
+
+footer .footer-right a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .footer-right a:hover {
+  color: white;
+}
+
+footer .footer-right .email {
+  text-decoration: underline;
+}
+
+footer .footer-right .social-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 4em;
+  place-content: end space-between;
+}
+
+footer .footer-right .social-footer ul a {
+  display: block;
+  padding: 0.5em 0.5em;
+}
+
+footer .footer-right .social-footer ul a:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 800px) {
+  header,
+  section,
+  footer {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  .nav-container a {
+    font-size: 1.25em;
+  }
+  .hero {
+    padding: 15em 4em 15em;
+  }
+  .hero .content h1 {
+    font-size: 3em;
+  }
+  .hero .content .meet {
+    place-content: center;
+    width: unset;
+    height: unset;
+    margin: unset;
+  }
+  .hero .content .meet p {
+    font-size: 2em;
+  }
+  .hero .content .scroll {
+    width: 65px;
+    margin-top: 2em;
+  }
+  .heading-section {
+    text-align: left;
+    padding-top: 5em;
+    padding-left: 4em;
+    padding-bottom: 1em;
+  }
+  .heading-section div p {
+    font-size: 1.25em;
+  }
+  .heading-section div h1 {
+    font-size: 3em;
+  }
+  .actualidad,
+  .fut {
+    padding-top: 7em;
+    height: 90vh;
+  }
+  .act-skill-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+    padding-bottom: 1em;
+    height: 6em;
+  }
+  .fut-skill-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+  .descargar-cv {
+    padding-top: 10em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh;
+  }
+  .nav-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+  }
+  .nav-container header {
+    background: #212529;
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+  .social-header {
+    padding: 2em 4em 2em 0;
+  }
+  section {
+    padding: 4em;
+  }
+  .social-header {
+    display: block;
+  }
+  .social-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 9em;
+    float: right;
+  }
+  .hero {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+  }
+  .hero .content {
+    background: #343a40;
+    padding: 6em 10em 6em 4em;
+    text-align: left;
+  }
+  .hero .content h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    padding-top: 1.5em;
+  }
+  .hero .content .meet {
+    place-content: unset;
+    padding-top: 1.2em;
+  }
+  .hero .content .scroll {
+    margin-top: 3em;
+  }
+  .meet {
+    margin: unset;
+  }
+  .scroll {
+    margin-top: 6em;
+  }
+  .hero-design {
+    display: unset;
+    margin-left: -50%;
+    margin-top: 60%;
+    width: 100%;
+  }
+  .descargar-cv {
+    padding-top: 10em;
+    padding-bottom: 15em;
+  }
+  .descargar-cv .parent-btn {
+    position: relative;
+  }
+  .descargar-cv .parent-btn .child-btn button {
+    font-family: inherit;
+    border: 10px solid #707070;
+    border-radius: 93px;
+    background-color: white;
+    color: #212529;
+    font-weight: bold;
+    padding: 35px 75px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 28px;
+    z-index: 2;
+  }
+  footer {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 362px;
+  }
+  footer .footer-left {
+    padding-top: 7em;
+    padding-bottom: 5em;
+  }
+  footer .footer-left a {
+    font-size: 1.25em;
+  }
+  footer .footer-right {
+    padding-top: 7em;
+    padding-bottom: 5em;
+  }
+  footer .footer-right a {
+    font-size: 1.25em;
+  }
+  .footer-design {
+    display: unset;
+    position: relative;
+    top: -139px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  header {
+    padding: 2em 2em 2em 10em;
+  }
+  .social-header {
+    padding: 2em 10em 2em 0;
+  }
+  section {
+    margin-top: 6em;
+    padding: 10em 10em 4em 10em;
+  }
+  .hero .content {
+    padding: 2em 8em 2em 10em;
+  }
+  .hero .content h1 {
+    font-size: 5em;
+  }
+  footer {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+  .descargar-cv {
+    position: relative;
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  header {
+    padding: 2em 2em 2em 20em;
+  }
+  .social-header {
+    padding: 2em 20em 2em 0;
+  }
+  section {
+    padding: 10em 20em 4em 20em;
+  }
+  .hero .content {
+    padding: 2em 20em 2em 20em;
+  }
+  footer {
+    padding-left: 20em;
+    padding-right: 20em;
+  }
+  .descargar-cv {
+    position: relative;
+  }
+}
+/*# sourceMappingURL=main.css.map */

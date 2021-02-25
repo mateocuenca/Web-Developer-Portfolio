@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1881" height="818" viewBox="0 0 1881 818">
+  <g id="box_descargar" transform="translate(0 -3326)">
+    <rect id="Rectángulo_38" data-name="Rectángulo 38" width="1652" height="591" rx="227" transform="translate(0 3326)" fill="#212529"/>
+    <path id="Trazado_134" data-name="Trazado 134" d="M0,0V227H227v-1.067C227,101.153,125.847,0,1.067,0Z" transform="translate(1425 3917) rotate(-90)" fill="#6c757d"/>
+    <path id="Trazado_148" data-name="Trazado 148" d="M0,0V227H227v-1.067C227,101.153,125.847,0,1.067,0Z" transform="translate(227 3326) rotate(90)" fill="#212529"/>
+    <path id="Trazado_149" data-name="Trazado 149" d="M0,227V0H227V1.067C227,125.846,125.847,227,1.067,227Z" transform="translate(0 3917) rotate(-90)" fill="#212529"/>
+    <path id="Trazado_135" data-name="Trazado 135" d="M0,0V227H227v-1.067C227,101.153,125.847,0,1.067,0Z" transform="translate(1881 3917) rotate(90)" fill="#a5a5a5"/>
+  </g>
+</svg>
