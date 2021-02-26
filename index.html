@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mateo Cuenca - Jr Web Developer</title>
+    <meta name="description"
+    content="Mateo Cuenca Portfolio" />
+    <meta http-equiv="author"
+    content="Mateo Cuenca" />
+    <link rel="icon" type="image/png" href="/images/favicon-portfolio.png"/>
+    <title>Mateo Cuenca - Jr Front-End Developer</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
   <body>
@@ -23,17 +28,12 @@
       <div class="social-header">
         <ul>
           <li>
-            <a href="#"
+            <a href="https://www.linkedin.com/in/mateo-cuenca/" target="_blank"
               ><img src="images/linkedin_hero.svg" alt="Linked In"
             /></a>
           </li>
-          <li class="icon-behance">
-            <a href="#"><img src="images/behance_hero.svg" alt="Behance" /></a>
-          </li>
           <li>
-            <a href="#"
-              ><img src="images/dribbble_hero.svg" alt="Dribbble"
-            /></a>
+            <a href="https://github.com/mateocuenca" target="_blank"><img src="images/github_hero.svg" alt="GitHub" /></a>
           </li>
         </ul>
       </div>
@@ -41,8 +41,8 @@
 
     <div class="hero">
       <div class="content">
-        <h1>Junior Front End Web Developer</h1>
-        <div class="meet">
+        <h1 class="stagger1">Junior Front End Web Developer</h1>
+        <div class="meet stagger1">
           <span
             ><img
               src="images/mano_abajo_4.svg"
@@ -50,7 +50,7 @@
           /></span>
           <p>Conoce a Mateo</p>
         </div>
-        <svg class="scroll" width="44" height="77" viewBox="0 0 44 77">
+        <svg class="scroll stagger1" width="44" height="77" viewBox="0 0 44 77">
           <g id="boton_abajo" transform="translate(-254 -737)">
             <g
               id="Rectángulo_4"
@@ -63,7 +63,7 @@
               <rect width="44" height="77" rx="22" stroke="none" />
               <rect x="3" y="3" width="38" height="71" rx="19" fill="none" />
             </g>
-            <circle
+            <circle class="circle"
               id="Elipse_1"
               data-name="Elipse 1"
               cx="10"
@@ -255,7 +255,9 @@
           alt="Fondo oscuro del botón descargar"
         />
         <div class="child-btn">
+          <a href="docs/CV_MateoRodriguezCuenca_26022021.pdf" download>
           <button class="btn" ">Descargar CV</button>
+        </a>
         </div>
       </div>
     </section>
@@ -345,24 +347,19 @@
       </div>
       <div class="footer-right">
         <ul>
-          <li><a href="#">+54 9 351 210-7332</a></li>
-          <li><a class="email" href="#">mateorc099@gmail.com</a></li>
+          <li><a href="tel:+5493512107332">+54 9 351 210-7332</a></li>
+          <li><a class="email" href="mailto:mateorc099@gmail.com">mateorc099@gmail.com</a></li>
           <li>
             <div class="social-footer">
               <ul>
                 <li>
-                  <a href="#"
+                  <a href="https://www.linkedin.com/in/mateo-cuenca/"  target="_blank"
                     ><img src="images/linkedin_footer.svg" alt="Linked In"
                   /></a>
                 </li>
                 <li>
-                  <a href="#"
-                    ><img src="images/behance_footer.svg" alt="Behance"
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img src="images/dribbble_footer.svg" alt="Dribbble"
+                  <a href="https://github.com/mateocuenca"  target="_blank"
+                    ><img src="images/github_footer.svg" alt="GitHub"
                   /></a>
                 </li>
               </ul>
@@ -371,5 +368,12 @@
         </ul>
       </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
   </body>
 </html>

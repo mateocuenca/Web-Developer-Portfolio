@@ -2,7 +2,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: "Poppins", Arial;
+  font-family: 'Poppins', Arial;
 }
 
 ul {
@@ -114,7 +114,7 @@ section.actualidad {
 }
 
 section.actualidad::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 200px;
   height: 200px;
@@ -194,7 +194,7 @@ section.fut {
 }
 
 section.fut::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 200px;
   height: 200px;
@@ -283,7 +283,7 @@ section.fut::before {
   border: 10px solid #707070;
   border-radius: 40px;
   background-color: white;
-  color: #212529;
+  color: #707070;
   font-weight: bold;
   padding: 15px 32px;
   text-align: center;
@@ -293,10 +293,9 @@ section.fut::before {
   z-index: 2;
 }
 
-.descargar-cv .parent-btn .child-btn button .btn:hover {
-  background-color: white;
-  border: white;
-  color: black;
+.descargar-cv .parent-btn .child-btn .btn:hover {
+  border: 10px solid white;
+  color: #212529;
 }
 
 footer {
@@ -349,20 +348,25 @@ footer .footer-right .email {
   text-decoration: underline;
 }
 
+footer .footer-right .social-footer {
+  display: block;
+}
+
 footer .footer-right .social-footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 4em;
-  place-content: end space-between;
+  place-content: space-between;
+  float: right;
+  width: 6em;
 }
 
-footer .footer-right .social-footer ul a {
+footer .footer-right .social-footer a {
   display: block;
   padding: 0.5em 0.5em;
 }
 
-footer .footer-right .social-footer ul a:hover {
+footer .footer-right .social-footer a:hover {
   color: white;
 }
 
@@ -466,7 +470,7 @@ footer .footer-right .social-footer ul a:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 9em;
+    width: 6em;
     float: right;
   }
   .hero {
@@ -599,6 +603,36 @@ footer .footer-right .social-footer ul a:hover {
   }
   .descargar-cv {
     position: relative;
+  }
+}
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(266px, 748px);
+            transform: translate(266px, 748px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(266px, 780px);
+            transform: translate(266px, 780px);
+    z-index: 5;
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(266px, 748px);
+            transform: translate(266px, 748px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(266px, 780px);
+            transform: translate(266px, 780px);
+    z-index: 5;
   }
 }
 /*# sourceMappingURL=main.css.map */
