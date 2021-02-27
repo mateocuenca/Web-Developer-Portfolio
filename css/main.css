@@ -274,7 +274,7 @@ section.fut::before {
 .descargar-cv .parent-btn .child-btn {
   position: absolute;
   top: 10%;
-  left: 25%;
+  left: 20%;
 }
 
 .descargar-cv .parent-btn .child-btn button {
@@ -549,14 +549,13 @@ footer .footer-right .social-footer a:hover {
   .descargar-cv .parent-btn .child-btn {
     position: absolute;
     top: 20%;
-    left: 25%;
+    left: 35%;
   }
   .descargar-cv .parent-btn .child-btn button {
     font-family: inherit;
     border: 10px solid #707070;
     border-radius: 93px;
     background-color: white;
-    color: #212529;
     font-weight: bold;
     padding: 35px 75px;
     text-align: center;
