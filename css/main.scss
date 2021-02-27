@@ -235,7 +235,6 @@ section.fut::before {
 }
 
 .descargar-cv {
-  position: relative;
   padding-left: 0;
   //   margin: initial;
   background: white;
@@ -244,8 +243,8 @@ section.fut::before {
     position: relative;
     .child-btn {
       position: absolute;
-      top: 30%;
-      left: 5%;
+      top: 25%;
+      left: 25%;
       button {
         // -ms-transform: translate(-50%, -50%);
         font-family: inherit;
@@ -393,13 +392,13 @@ footer {
     height: 90vh;
   }
 
-  .actualidad {
-    // margin-bottom: -4em;
-  }
+  // .actualidad {
+  //   // margin-bottom: -4em;
+  // }
 
-  .fut {
-    // margin-bottom: -2em;
-  }
+  // .fut {
+  //   // margin-bottom: -2em;
+  // }
 
   .act-skill-container ul {
     display: grid;
@@ -501,6 +500,9 @@ footer {
     .parent-btn {
       position: relative;
       .child-btn {
+        position: absolute;
+        top: 25%;
+        left: 35%;
         button {
           // -ms-transform: translate(-50%, -50%);
           font-family: inherit;

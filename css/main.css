@@ -263,7 +263,6 @@ section.fut::before {
 }
 
 .descargar-cv {
-  position: relative;
   padding-left: 0;
   background: white;
 }
@@ -274,8 +273,8 @@ section.fut::before {
 
 .descargar-cv .parent-btn .child-btn {
   position: absolute;
-  top: 20%;
-  left: 35%;
+  top: 25%;
+  left: 25%;
 }
 
 .descargar-cv .parent-btn .child-btn button {
@@ -516,6 +515,11 @@ footer .footer-right .social-footer a:hover {
   }
   .descargar-cv .parent-btn {
     position: relative;
+  }
+  .descargar-cv .parent-btn .child-btn {
+    position: absolute;
+    top: 25%;
+    left: 35%;
   }
   .descargar-cv .parent-btn .child-btn button {
     font-family: inherit;
