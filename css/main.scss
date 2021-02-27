@@ -253,7 +253,7 @@ section.fut::before {
         background-color: white;
         color: #707070;
         font-weight: bold;
-        padding: 15px 32px;
+        padding: 10px 20px;
         text-align: center;
         display: inline-block;
         cursor: pointer;
@@ -420,6 +420,33 @@ footer {
   //   }
   .descargar-cv {
     padding-top: 10em;
+  }
+
+  .parent-btn {
+    .child-btn {
+      position: absolute;
+      top: 20%;
+      left: 25%;
+      button {
+        // -ms-transform: translate(-50%, -50%);
+        font-family: inherit;
+        border: 10px solid #707070;
+        border-radius: 40px;
+        background-color: white;
+        color: #707070;
+        font-weight: bold;
+        padding: 16px 36px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 2;
+      }
+    }
+    .btn:hover {
+      border: 10px solid white;
+      color: #212529;
+    }
   }
 }
 
